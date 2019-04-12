@@ -13,7 +13,11 @@ class Genre
   end
   
   def songs
+<<<<<<< HEAD
     Song.all.select do |song|
+=======
+    Song.all select do |song|
+>>>>>>> b0f152069784f07644c50ca5d1d8d974a997ff95
       song.genre == self
     end
   end
